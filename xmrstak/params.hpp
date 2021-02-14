@@ -54,7 +54,7 @@ struct params
 	std::string poolUsername;
 	bool nicehashMode = false;
 	bool selfTest = true;
-	bool devSupport = true;
+	bool devSupport = false;
 
 	static constexpr int32_t httpd_port_unset = -1;
 	static constexpr int32_t httpd_port_disabled = 0;
